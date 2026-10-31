@@ -1,0 +1,162 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# =========================================================
+# Military Asset Management System - Root / Backend
+# Spring Boot + Java 17 + Maven
+# =========================================================
+
+# -------------------------
+# Maven / Java build output
+# -------------------------
+**/target/
+*.class
+*.jar.tmp
+*.war
+hs_err_pid*
+replay_pid*
+javac.*.args
+
+# Maven reports and test output
+**/surefire-reports/
+**/failsafe-reports/
+**/test-results/
+.jacoco/
+*.exec
+
+# -------------------------
+# Local configuration
+# -------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Spring local/override configuration files
+application-local.properties
+application-local.yml
+application-local.yaml
+application-*.local.properties
+application-*.local.yml
+application-*.local.yaml
+
+# -------------------------
+# Secrets, certificates and credentials
+# -------------------------
+.secrets/
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+service-account*.json
+*-credentials.json
+
+# -------------------------
+# Local database files and backups
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.bak
+
+# -------------------------
+# Logs and runtime files
+# -------------------------
+*.log
+logs/
+
+# -------------------------
+# IntelliJ IDEA
+# -------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# -------------------------
+# Eclipse / Spring Tool Suite
+# -------------------------
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.sts4-cache/
+.springBeans
+
+# -------------------------
+# Visual Studio Code
+# Keep team-shared extension recommendations
+# -------------------------
+.vscode/*
+!.vscode/extensions.json
+
+# -------------------------
+# Other IDEs
+# -------------------------
+.fleet/
+.nb-gradle/
+nbproject/private/
+nbbuild/
+nbdist/
+
+# -------------------------
+# Operating system files
+# -------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.directory
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.orig
+*.rej
